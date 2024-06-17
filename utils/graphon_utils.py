@@ -424,7 +424,6 @@ def two_graphon_mixup(graphon1,graphon2,la=0.5, num_sample=20):
         edge_index, _ = dense_to_sparse(A)
 
         if edge_index.numel() == 0:
-            print("edge_index is empty")
             i=i-1
             continue
         else:
@@ -470,7 +469,6 @@ def two_graphon_mixup_random_align(graphon1,graphon2,min_size,max_size,la=0.5, n
         edge_index, _ = dense_to_sparse(A)
 
         if edge_index.numel() == 0:
-            print("edge_index is empty")
             continue
         else:
             num_nodes = int(torch.max(edge_index)) + 1

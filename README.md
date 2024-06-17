@@ -17,4 +17,8 @@ Run out-of-distribution detection on AIDS (ID) and DHFR (OOD) datasets:
 ```
 unzip data.zip
 bash script/run_AIDS+DHFR.sh
+bash script/run_ogbg-molesol+ogbg-molmuv.sh
+bash script/run_ogbg-molfreesolv+ogbg-moltoxcast.sh
+bash script/run_ogbg-moltox21+ogbg-molsider.sh
+...
 ```
