@@ -1,4 +1,4 @@
-## This repository contains a PyTorch implementation for our paper "ADA-GAD: Anomaly-Denoised Autoencoders for Graph Anomaly Detection".
+This repository contains a PyTorch implementation for our paper "ADA-GAD: Anomaly-Denoised Autoencoders for Graph Anomaly Detection".
 ## Requirements
 This code requires the following:
 * Python==3.9
