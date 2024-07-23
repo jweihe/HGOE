@@ -15,7 +15,6 @@ Just run the script corresponding to the experiment and dataset you want. For in
 
 Run out-of-distribution detection on AIDS (ID) and DHFR (OOD) datasets:
 ```
-unzip data.zip
 bash script/run_AIDS+DHFR.sh
 bash script/run_ogbg-molesol+ogbg-molmuv.sh
 bash script/run_ogbg-molfreesolv+ogbg-moltoxcast.sh
